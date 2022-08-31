@@ -41,13 +41,11 @@ export default function Landing() {
         <Row className='list-product mb-3' style={{width:'958px', margin:"auto"}}>
             <Col sm={3} className="mb-3">
                 <CardGroup>
-                    <Card className='py-1 px-1'>
+                    <Card className='py-1 px-1' style={{backgroundColor:'#F7E6DA'}}>
                         <Card.Img variant="top" src={Rectangle1} />
-                        <Card.Title>Card title</Card.Title>
-                        <Card.Text>
-                            This is a wider card with supporting text below as a natural lead-in
-                            to additional content. This content is a little bit longer.
-                        </Card.Text>
+                        <p style={styles.titleproduct}>RWANDA Beans</p>
+                        <p style={styles.price}>Rp.299.900</p>
+                        <p style={styles.stock}>stock : 200</p>
                         </Card>
                 </CardGroup>
             </Col>
@@ -55,4 +53,26 @@ export default function Landing() {
     </Container>
     </>
   )
+}
+
+const styles = {
+    titleproduct:{
+        color: '#613D2B',
+        fontWeight: 900,
+        fontSize :18
+    },
+    price:{
+        color: '#974A4A',
+        fontWeight: 400,
+        fontSize :14,
+        lineHeight: '19px',
+        marginBottom: '5px'
+    },
+    stock:{
+        color: '#974A4A',
+        fontWeight: 400,
+        fontSize :14,
+        lineHeight: '19px',
+        marginBottom: '5px'
+    }
 }

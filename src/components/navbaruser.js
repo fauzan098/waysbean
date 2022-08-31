@@ -8,7 +8,7 @@ import Logout from "../assets/img/logout.svg"
 // css
 import "../styles/navbarmain.css"
 
-export default function NavbarAdmin() {
+export default function Navbaruser() {
   return (
     <>
      <nav class="navbar navbar-expand-lg">

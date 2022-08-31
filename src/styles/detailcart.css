@@ -1,0 +1,126 @@
+.container{
+    width: 958px;
+}
+/* left side profile */
+#title-profile{
+    color: #613D2B;
+}
+/* end */
+
+/* rigth side profile */
+.profile-img{
+    width: 180px;
+    height: 221px;
+}
+#title-name {
+    color: #613D2B;
+}
+#name{
+    font-size: 18px;
+}
+/* end */
+
+#transaction{
+    width: 500px;
+    height: 140px;
+    background-color: #F6E6DA;
+}
+
+/* left side transaction */
+.img-product-detail{
+    width: 80px;
+    height: 120px;
+}
+#title-transaction{
+    color: #613D2B;
+}
+#name-product{
+    font-size: 14px;
+    font-weight: 700;
+    color: #613D2B;
+    margin-bottom: 0 !important;
+}
+#day{
+    font-size: 9px;
+    font-weight: 800px;
+    color: #613D2B;
+}
+#date{
+    font-size: 9px;
+    font-weight: 800px;
+    color: #613D2B;
+}
+/* end */
+
+/* left side transaction */
+#price{
+    font-size: 10px;
+    color: #613D2B;
+    margin-bottom: 0;
+    margin-top: 2px;
+}
+#subtotal{
+    font-size: 10px;
+    color: #974A4A;
+    margin-top: 1px;
+}
+
+/* right side transaction */
+#logo-waysbeans-transaction{
+    width: 73px;
+    height: 22px;
+    margin-left: 90px;
+}
+#qrcode{
+    width: 50px;
+    height: 50px;
+    margin-left: 90px;
+}
+#icon{
+    flex: none;
+}
+#status-waitingapprove{
+    width: 112px;
+    height: 19px;
+    background: linear-gradient(180deg, #FF9900 0%, #FF9900 100%);
+    opacity: 0.1;
+    border-radius: 2px;
+    margin-left: 90px;
+}
+#name-status-waitingapprove{
+    color: #FF9900;
+    margin-left: 110px;
+    font-size: 10px;
+    font-weight: 500px;
+    margin-top: -18px;
+}
+#status-succsess{
+    width: 112px;
+    height: 19px;
+    background: linear-gradient(180deg, #00FF19 0%, #8FFF00 100%);
+    opacity: 0.1;
+    border-radius: 2px;
+    margin-left: 90px;
+}
+#name-status-success{
+    color: #78A85A;
+    margin-left: 130px;
+    font-size: 10px;
+    font-weight: 500px;
+    margin-top: -18px;
+}
+#status-complete{
+    width: 112px;
+    height: 19px;
+    background: #613D2B;
+    /* opacity: 0.1; */
+    border-radius: 2px;
+    margin-left: 90px;
+}
+#name-status-complete{
+    color: #FFFFFF;
+    margin-left: 125px;
+    font-size: 10px;
+    font-weight: 500px;
+    margin-top: -18px;
+}

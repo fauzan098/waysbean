@@ -21,11 +21,10 @@
     position: absolute;
     top: 430px;
 }
-.main-card {
-    /* width: 958px; */
-    background-color: antiquewhite;
-}
 .list-product{
     width: 958px;
     margin: auto;
+}
+.title-product{
+    color: #613D2B;
 }
